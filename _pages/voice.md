@@ -4,35 +4,36 @@ permalink: /voice/
 title: Voice
 description: How it all began
 nav: true
-nav_order: 7
+nav_order: 3
 ---
 
 **PBX, in italian "centralino"**
 
-When I was 8 years old I succesfully setup a mini analog Phone Branch Exchange at home.
+When I was 8 years old I ran a mini analog Phone Branch Exchange at home.
 
-I was really passionate about Ericsson MD110, one of the most advanced Digital PBX at that time. Studying TDM I easily understood the benefetis  IP and VoIP(mainly SIP) protocols brings.
+I was really passionate about Ericsson MD110, one of the most advanced Digital PBX at that time. 
 
-At 12 years old I had the chanche to put my hands on a [Cisco 1701](https://www.cisco.com/c/en/us/obsolete/routers/cisco-1701-adsl-security-access-router.html) ADSL router. 
-I fell in love with Cisco, from 79xx VoIP Phones and solutions.
+ I had the chance to put my hands, as a 12 years old boy, on a [Cisco 1701](https://www.cisco.com/c/en/us/obsolete/routers/cisco-1701-adsl-security-access-router.html) ADSL router. 
+
 
 The summer before I started attending liceo classico, high school, I gained exprience with linux and setup an [Asterisk](https://www.asterisk.org) PBX.
-Asterisk is an awsome opensource PBX witch I currently run at home.
-This way I learned to love and use and customize linux, created Voice appliance on asterisk to interact with MYSQL,PHP, filter spam calls etc... 
+Asterisk is an awsome opensource PBX that I still run at home.
+This way I learned to love and use linux: create interactive voice appliance  with MYSQL and PHP to: filter spam calls, select certain Caller IDs etc... 
 
-I've tested on my home lab: Cisco CUCM, CUBE, Skinny protocol etc.
+Other things I tested on my voice home lab: Cisco CUCM, CUBE, Skinny protocol etc.
 
-On my asterisk PBX during more than 15 years I've registered various tons of phones,the most challenging one: Cisco 79xx to 88xx ,Avaya 99xx,
+Registered tons of SIP phones on asterisk, a recap of the most challenging ones: Cisco 79xx,88xx ,Avaya 96xx
 
 
 
 **SIP Protocol**
+My dream was to connect digitally to the PSTN carrier.
+I would have bought an ISDN line but my parents didn't let me do that, so a cheap Betamax SIP trunk was the way to go.
 
-I soon realized, on my poor ADSL line ,I need QoS  to achieve an accetable voice quality. 
-From that day I began studying IP networks in detail and service providers. I started from the SIP protocol and then down to all layers.
+I wasn't satisfied at all with the overall quality and stability of the system,  due to the poor internet connection, that day I began to study IP networks, starting from  SIP protocol and then down to all layers and architectures.
+I soon realized my poor ADSL line couldn't achieve an acceptable voice quality and I needed at least QoS.
 
-IP multimedia system always fascinated me, in the way it conncets both mobile and fixed users thanks to the power of IP, and that's the last thing I studied on voice networks (including how to manage interconnections between SBCs )
 
-I had the oppportunity to live the migration of an italian Carrier Voice interconnnection from TDM to IP and SIP. 
+I abandoned studying voice.Last thing I dived into is IP Multimedia Subsystem and voice interconnections , both TDM and IP, between carriers.
 
 

@@ -2,34 +2,59 @@
 layout: page
 permalink: /ip/
 title: IP
-description: Protocols and equipments test
+description: Some of the stuff I did
 nav: true
-nav_order: 6
+nav_order: 2
 ---
 
-**Service Provider Networks:**
-I implemnted and tested a Seamless MPLS IPv4 network design:
+#### Service Provider Networks
+
+**Core and Metro IP**
+
+Seamless MPLS IPv4 network design:
 Access Node(DSLAM/OLT/CE/BTS)->Metro Network-> Core Network-> Peering/Transit.
-* Router used:Cisco ASR 9k, Juniper PTX and MX , Huawei NE40E, Nokia SR 7700
-* IS-IS and OSPFv3 to redistribute loopbacks.
-* On the top of that MP-BGP with redundant and virtualized Route Reflectors was implemented.
+* IGP Protocols: IS-IS and OSPFv3 to redistribute loopbacks.
+* MP-BGP with redundant and virtualized Route Reflectors 
+* ECMP for loadbalacing 
 * MPLS labels distributed with BGP LU.
+* Loadbalacing via Entropy Label and and Deep Packet Inspection on the EdgeLSR 
+* PCEP controller
+* BGP Link State to signal network topology to the controller
 
-Service succefully deployed and tested:
-* MPLS L3VPN, VPWS, VPLS, 6PE, Multicast VPN (to deliver IPv6 to customers and PE), 6VPE
+BGP/MPLS services:
+* MPLS L3VPN, VPWS, VPLS, 6PE(to deliver IPv6 to customers and PE), 6VPE
+* BGP FlowSpec
 
-VPLS was implemented using RFC4761, using BGP both for autodiscovery and signaling
 
-**Datacenter Networks:**
+VPLS was implemented using EVPN , using BGP both for autodiscovery and signaling. 
+
+* Router used:Cisco ASR 9k and NCS 55xx, Juniper PTX and MX , Huawei NE40E, Nokia SR 7700
+
+* Cisco Network Service Orchestrator
+
+**IP Edge**
+
+Python scirpts to automate service delivery:
+* CE-PE Business customers with BGP Session
+* Residential and small business BNG: terminating Pseudowires. AAA of CPE connceting with DHCP or PPPoE, CGNAT 
+* IP managment
+
+
+**NGAN  Fixed Access**
+* ULL/VULA/NGA Access Troubleshooting and design
+* OLT and DSLAM Nokia and Huawei 
+
+
+#### Datacenter Networks
 
 * Switches:Cisco Nexus 7000, 9000, QFX 5100 series
 * Virtual Switches:  Vmware Distributed Switch
 
-I swapped deployments from plain Ethernet, Spanning Tree and VLAN to VxLAN and Routing, building the so called "IP Swtiched Fabric", this technology enables streaching of VLANs across geographically different places and not to speare link capacity using the ECMP routing techinque.
-On the same IP fabric it's running the iSCSI storage
+I swapped deployments from plain Ethernet, Spanning Tree and VLAN to VxLAN and Routing, building the so called "IP Switched Fabric", this technology enables streaching of VLANs across geographically different places and saves links capacity, using the ECMP routing techinque.
+All DC services relay on the same IP fabric, iSCSI too.
 
-**Enterprise Networks:**
+#### Enterprise Networks
 LAN mainly with Cisco Switch 3850/9300 stacks, both for Data and IP Voice with QoS.
-Firewall: Cisco ASA, Juniper SRX, Fortinet, Checkpoint and PaloAlto (managed Policies, IPsec VPN, SSL VPN, etc..)
+Firewall: Cisco ASA, Juniper SRX, Fortinet, Checkpoint and PaloAlto (Policies, IPsec VPN, SSL VPN, etc..)
 
 
