@@ -15,9 +15,9 @@ Seamless MPLS IPv4 network design:
 Access Node(DSLAM/OLT/CE/BTS)->Metro Network-> Core Network-> Peering/Transit.
 * IGP Protocols: IS-IS and OSPFv3 to redistribute loopbacks.
 * MP-BGP with redundant and virtualized Route Reflectors 
-* ECMP for loadbalacing 
+* ECMP for load balancing 
 * MPLS labels distributed via BGP LU.
-* Loadbalacing via MPLS Entropy Label and Deep Packet Inspection on the EdgeLSR 
+* Load balancing via MPLS Entropy Label and Deep Packet Inspection on the EdgeLSR 
 * PCEP controller
 * BGP Link State to signal network topology to the controller
 
@@ -36,7 +36,7 @@ VPLS was implemented using EVPN , using BGP both for autodiscovery and signaling
 
 Python scripts to automate service delivery:
 * CE-PE Business customers with BGP Session
-* Residential and small business BNG: terminating Pseudowires. AAA of CPEs conncted with DHCP or PPPoE, CGNAT 
+* Residential and small business BNG: terminating Pseudowires. AAA of CPEs connected with DHCP or PPPoE, CGNAT 
 * IP management
 
 
@@ -50,11 +50,9 @@ Python scripts to automate service delivery:
 * Switches:Cisco Nexus 7000, 9000, QFX 5100 series
 * Virtual Switches:  Vmware Distributed Switch
 
-I swapped deployments from plain Ethernet, Spanning Tree and VLAN to VxLAN and Routing, building the so called "IP Switched Fabric".This technology enables stretching VLANs across geographically different places and saves links capacity, using the ECMP routing techinque.
+I swapped deployments from plain Ethernet, Spanning Tree and VLAN to VxLAN and Routing, building the so called "IP Switched Fabric".This technology enables stretching VLANs across geographically different places and saves links capacity, using the ECMP routing technique.
 All DC services relay on the same IP fabric, iSCSI too.
 
 #### Enterprise Networks
 LAN mainly with Cisco Switch 3850/9300 stacks, both for Data and IP Voice with QoS.
 Firewall: Cisco ASA, Juniper SRX, Fortinet, Checkpoint and PaloAlto (Policies, IPsec VPN, SSL VPN, etc..)
-
-

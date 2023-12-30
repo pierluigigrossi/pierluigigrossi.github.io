@@ -18,15 +18,15 @@ social: true  # includes social icons at the bottom of the page
 
 **Studying to get my CCIE Service Provider**
 
-I'm currently interested in IP backbone networks: large Service Providers (mainly), Datacenters and enterprises.
+I'm currently interested in IP backbone networks: large Service Providers (mainly), datacenters and enterprises.
 
 I'm playing with [SRv6](https://www.segment-routing.net/ietf) and operating on SR-MPLS (Segment Routing MPLS) with TI-LFA (Topology Indipendent Loop Free Alternate). [find out more](/ip)
 
-Programming langagues I use to automate networks:
+Programming languages I use to automate networks:
 linux shell, Python, Java
 
 Back to where it all began: Fixed Telephone Network [find out more](/voice). 
-I don't regret exprimenting with it in my free time.
+I don't regret experimenting with it in my free time.
 
 Topics I had the chance to work with:
 
@@ -34,9 +34,8 @@ Topics I had the chance to work with:
 * Hypervisors: VMWare ESXI, KVM
 * Mail: Postfix, Microsoft Exchange 2013,  both set up from scratch 😱
 * Web: Apache, PHP, MYSQL,NGINX,SQL Server, IIS, ASP
-* Monitoring: Nagios,Zabbix,Splunk
+* Monitoring : Nagios, Zabbix, Splunk
 * OS: Windows Server(Active Directory, DNS, CA, NPS...), Red Hat, Debian
-
 
 
 

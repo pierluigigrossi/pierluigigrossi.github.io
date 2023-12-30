@@ -16,8 +16,8 @@ I was really passionate about Ericsson MD110, one of the most advanced Digital P
  I had the chance to put my hands, as a 12 years old boy, on a [Cisco 1701](https://www.cisco.com/c/en/us/obsolete/routers/cisco-1701-adsl-security-access-router.html) ADSL router. 
 
 
-The summer before I started attending liceo classico, high school, I gained exprience with linux and setup an [Asterisk](https://www.asterisk.org) PBX.
-Asterisk is an awsome opensource PBX that I still run at home.
+The summer before I started attending liceo classico, high school, I gained experience with linux and setup an [Asterisk](https://www.asterisk.org) PBX.
+Asterisk is an awesome opensource PBX that I still run at home.
 This way I learned to love and use linux: create interactive voice appliance  with MYSQL and PHP to filter spam calls, select certain Caller IDs etc... 
 
 Other things I tested on my voice home lab: Cisco CUCM, CUBE, Skinny protocol etc.
