@@ -7,7 +7,7 @@ nav: true
 nav_order: 3
 ---
 
-**PBX, in italian "centralino"**
+**PBX, in Italian "centralino"**
 
 When I was 8 years old I ran a mini analog Phone Branch Exchange at home.
 
@@ -34,5 +34,3 @@ Perceived voice quality and overall stability was poor, the root cause was an in
 From that time on I began to study IP networks, starting from  SIP protocol and then down to all layers and architectures.
 
 I abandoned studying voice.Last thing I dived into is IP Multimedia Subsystem and voice interconnections , mainly IP, between carriers.
-
-
