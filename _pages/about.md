@@ -22,8 +22,7 @@ I'm currently interested in IP backbone networks: large Service Providers (mainl
 
 I'm playing with [SRv6](https://www.segment-routing.net/ietf) and operating on SR-MPLS (Segment Routing MPLS) with TI-LFA (Topology Indipendent Loop Free Alternate). [find out more](/ip)
 
-
-Programming langague I use to automate networks:
+Programming langagues I use to automate networks:
 linux shell, Python, Java
 
 Back to where it all began: Fixed Telephone Network [find out more](/voice). 
@@ -33,7 +32,7 @@ Topics I had the chance to work with:
 
 * Routers and Voice: view dedicated pages 
 * Hypervisors: VMWare ESXI, KVM
-* Mail: Postfix, Microsoft Exchange 2013,  both setup from scratch 😱
+* Mail: Postfix, Microsoft Exchange 2013,  both set up from scratch 😱
 * Web: Apache, PHP, MYSQL,NGINX,SQL Server, IIS, ASP
 * Monitoring: Nagios,Zabbix,Splunk
 * OS: Windows Server(Active Directory, DNS, CA, NPS...), Red Hat, Debian

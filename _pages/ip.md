@@ -16,8 +16,8 @@ Access Node(DSLAM/OLT/CE/BTS)->Metro Network-> Core Network-> Peering/Transit.
 * IGP Protocols: IS-IS and OSPFv3 to redistribute loopbacks.
 * MP-BGP with redundant and virtualized Route Reflectors 
 * ECMP for loadbalacing 
-* MPLS labels distributed with BGP LU.
-* Loadbalacing via Entropy Label and and Deep Packet Inspection on the EdgeLSR 
+* MPLS labels distributed via BGP LU.
+* Loadbalacing via MPLS Entropy Label and Deep Packet Inspection on the EdgeLSR 
 * PCEP controller
 * BGP Link State to signal network topology to the controller
 
@@ -28,16 +28,16 @@ BGP/MPLS services:
 
 VPLS was implemented using EVPN , using BGP both for autodiscovery and signaling. 
 
-* Router used:Cisco ASR 9k and NCS 55xx, Juniper PTX and MX , Huawei NE40E, Nokia SR 7700
+* Routers used:Cisco ASR 9k and NCS 55xx, Juniper PTX and MX , Huawei NE40E, Nokia SR 7700
 
 * Cisco Network Service Orchestrator
 
 **IP Edge**
 
-Python scirpts to automate service delivery:
+Python scripts to automate service delivery:
 * CE-PE Business customers with BGP Session
-* Residential and small business BNG: terminating Pseudowires. AAA of CPE connceting with DHCP or PPPoE, CGNAT 
-* IP managment
+* Residential and small business BNG: terminating Pseudowires. AAA of CPEs conncted with DHCP or PPPoE, CGNAT 
+* IP management
 
 
 **NGAN  Fixed Access**
@@ -50,7 +50,7 @@ Python scirpts to automate service delivery:
 * Switches:Cisco Nexus 7000, 9000, QFX 5100 series
 * Virtual Switches:  Vmware Distributed Switch
 
-I swapped deployments from plain Ethernet, Spanning Tree and VLAN to VxLAN and Routing, building the so called "IP Switched Fabric", this technology enables streaching of VLANs across geographically different places and saves links capacity, using the ECMP routing techinque.
+I swapped deployments from plain Ethernet, Spanning Tree and VLAN to VxLAN and Routing, building the so called "IP Switched Fabric".This technology enables stretching VLANs across geographically different places and saves links capacity, using the ECMP routing techinque.
 All DC services relay on the same IP fabric, iSCSI too.
 
 #### Enterprise Networks
