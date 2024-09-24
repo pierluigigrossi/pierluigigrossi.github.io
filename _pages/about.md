@@ -20,7 +20,7 @@ social: true  # includes social icons at the bottom of the page
 
 I'm currently interested in IP backbone networks: large Service Providers (mainly), datacenters and enterprises.
 
-I'm playing with [SRv6](https://www.segment-routing.net/ietf) and operating on SR-MPLS (Segment Routing MPLS) with TI-LFA (Topology Indipendent Loop Free Alternate). [find out more](/ip)
+I'm playing with [SRv6](https://www.segment-routing.net/ietf) and operating on SR-MPLS (Segment Routing MPLS) with TI-LFA (Topology Independent Loop Free Alternate). [find out more](/ip)
 
 Programming languages I use to automate networks:
 linux shell, Python, Java
